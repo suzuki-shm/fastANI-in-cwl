@@ -5,7 +5,7 @@ class: CommandLineTool
 baseCommand: ["fastANI"]
 hints:
     DockerRequirement:
-        dockerImageId: fastani
+        dockerImageId: ajhjhaf/fastani
         dockerFile:
             $include: ../containers/fastANI/Dockerfile
 inputs:
