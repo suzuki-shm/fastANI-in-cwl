@@ -17,7 +17,7 @@ With the [CWL reference implementation](https://github.com/common-workflow-langu
 cwl-runner --outdir ${PATH_TO_OUTPUT_DIR} \
            fastANI.cwl \
            --ref ${PATH_TO_REF_SEQUENCE_FILE} \
-           --query  ${PATH_TO_QUERY_SEQUENCE_FILE} \
+           --query  ${PATH_TO_QUERY_SEQUENCE_FILE}
 ```
 
 For other runners an input object is required:
